@@ -13,7 +13,42 @@ para aquellos que vayan a ser recursos pero lo primero que vamos a hacer es desc
 
 ## Clase 3: Git en Mac (0:46) 
 
-Instalando las herramientas en Mac podemos instalar descargar también el instalador gráfico vale que esto nos nos descarga un dmg que lo abrimos y cuando se monta tenemos el archivo el pkg vale el pack que los ejecutamos y es igual un wizard que simplemente nos nos va a permitir instalarlo vale d nos pedirá la contraseña de ministrador porque esto instala un ejecutable en el en la radio del sistema de las ejecutables vale y bueno el manga tiene más más problema si usáis más ports alguno también se puede instalar utilizando ese comando desde desde la consola vale es indiferente pues como como lo hagáis yo prefiero utilizarlo desde el instalador porque más cómodo que andar con la consola 
+Instalando las herramientas en Mac podemos instalar descargar también el instalador gráfico vale que esto nos nos descarga un dmg que lo abrimos y cuando se monta tenemos el archivo el pkg vale el pack que los ejecutamos y es igual un wizard que simplemente nos nos va a permitir instalarlo vale d nos pedirá la contraseña de ministrador porque esto instala un ejecutable en el en la radio del sistema de las ejecutables vale y bueno el manga tiene más más problema si usáis más ports alguno también se puede instalar utilizando ese comando desde desde la consola vale es indiferente pues como como lo hagáis yo prefiero utilizarlo desde el instalador porque más cómodo que andar con la consola.
+
+Si entramos a la página de Git para Mac https://git-scm.com/download/mac nos muestra lo siguiente:
+
+<img width="1499" alt="image" src="https://user-images.githubusercontent.com/23094588/193546491-eab92d26-6278-4203-b943-447ea6093161.png">
+
+Como vemos para instalar Git debos intalar [Brew](https://brew.sh/)
+
+<img width="1499" alt="image" src="https://user-images.githubusercontent.com/23094588/193546936-94257b2f-57d8-4521-a71f-884c39b27ff2.png">
+
+Debemos pulsar el comando 
+
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh) 
+```
+
+Al puslsarlo se instala brew pero hay que pulsar 3 comandos más:
+
+
+```sh
+echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/adulfodelarosa/.zprofile 
+
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/adulfodelarosa/.zprofile 
+
+
+eval "$(/opt/homebrew/bin/brew shellenv)"   
+```
+
+
+Una vez que ya tenemos instalado **Brew** podemos intalar **Git**
+
+
+```sh
+brew install git      
+
+```
 
 
 ## Clase 3b: Instalar Git y SourceTree en Mac (2:53) 
