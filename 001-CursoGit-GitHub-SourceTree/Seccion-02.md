@@ -48,6 +48,8 @@ Una vez que ya tenemos instalado **Brew** podemos intalar **Git**
 ```sh
 brew install git      
 
+git --version                                                
+git version 2.32.1 (Apple Git-133)
 ```
 
 
