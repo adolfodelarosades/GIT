@@ -5,7 +5,7 @@
 ### Clase 1: Introducción (1:14) 
 
 
-## Sección 2 - Instalando las herramientas 
+## [Sección 2 - Instalando las herramientas](https://github.com/adolfodelarosades/GIT/blob/main/001-CursoGit-GitHub-SourceTree/Seccion-02.md)
 
 ### Clase 2: Git en Windows (0:32) 
 ### Clase 2b: Instalar git en Windows (5:23) 
